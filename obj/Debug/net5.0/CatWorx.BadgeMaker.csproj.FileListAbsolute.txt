@@ -1,0 +1,15 @@
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/bin/Debug/net5.0/CatWorx.BadgeMaker.deps.json
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/bin/Debug/net5.0/CatWorx.BadgeMaker.runtimeconfig.json
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/bin/Debug/net5.0/CatWorx.BadgeMaker.runtimeconfig.dev.json
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/bin/Debug/net5.0/CatWorx.BadgeMaker.dll
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/bin/Debug/net5.0/ref/CatWorx.BadgeMaker.dll
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/bin/Debug/net5.0/CatWorx.BadgeMaker.pdb
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/obj/Debug/net5.0/CatWorx.BadgeMaker.csprojAssemblyReference.cache
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/obj/Debug/net5.0/CatWorx.BadgeMaker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/obj/Debug/net5.0/CatWorx.BadgeMaker.AssemblyInfoInputs.cache
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/obj/Debug/net5.0/CatWorx.BadgeMaker.AssemblyInfo.cs
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/obj/Debug/net5.0/CatWorx.BadgeMaker.csproj.CoreCompileInputs.cache
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/obj/Debug/net5.0/CatWorx.BadgeMaker.dll
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/obj/Debug/net5.0/ref/CatWorx.BadgeMaker.dll
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/obj/Debug/net5.0/CatWorx.BadgeMaker.pdb
+/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/obj/Debug/net5.0/CatWorx.BadgeMaker.genruntimeconfig.cache
