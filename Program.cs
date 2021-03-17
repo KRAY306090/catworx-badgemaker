@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CatWorx.BadgeMaker
 {
@@ -6,9 +7,35 @@ namespace CatWorx.BadgeMaker
     {
         static void Main(string[] args)
         {
-            double side = 3.14;
-            double area = side * side;
-            Console.WriteLine("area: {0}", area);
+            List<string> employees = GetEmployees();
+            PrintEmployees(employees);
+
+        }
+        static List<string> GetEmployees()
+        {
+            // I will return a list of strings
+            List<string> employees = new List<string>();
+            while (true)
+            {
+                Console.WriteLine("Please enter a name: (leave empty to exit): ");
+                string input = Console.ReadLine();
+                // Break if the user hits ENTER without typing a name
+                if (input == "")
+                {
+                    break;
+                }
+                employees.Add(input);
+            }
+            return employees;
+        }
+
+        static void PrintEmployees(List<string> employees)
+        {
+            // This will print the list of employees
+            for (int i = 0; i < employees.Count; i++)
+            {
+                Console.WriteLine(employees[i]);
+            }
 
         }
     }
