@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KJtNUFdbJXEWlb9sRbGZI+mVrs/PAfmDyWpVBK+TdWuGtaMdeu1xnGlqU+AdExAORCACqZiWhVqhd2l7cPTjYg==",
+  "dgSpecHash": "0aUiL3jc+fJJ/qRA0h+l6BILiBBri26bMQTynKazJnCAcbucagmhSFkdY7s+4hfJq1stvkjTE923sZk196Y22w==",
   "success": true,
   "projectFilePath": "/Users/kennadeeray/Desktop/SeaSharp/CatWorx.BadgeMaker/CatWorx.BadgeMaker.csproj",
   "expectedPackageFiles": [
     "/Users/kennadeeray/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "/Users/kennadeeray/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "/Users/kennadeeray/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
     "/Users/kennadeeray/.nuget/packages/system.drawing.common/5.0.2/system.drawing.common.5.0.2.nupkg.sha512"
   ],
   "logs": []

@@ -7,38 +7,25 @@ namespace CatWorx.BadgeMaker
     {
         static void Main(string[] args)
         {
-            List<Employee> employees = GetEmployees();
-            
-            Util.MakeCSV(employees);
-            Util.MakeBadges(employees);
+            Console.WriteLine("Do you want to import API data for badges? type yes or no");
+            String response = Console.ReadLine();
 
-        }
-        static List<Employee> GetEmployees()
-        {
-            // I will return a list of strings
-            List<Employee> employees = new List<Employee>();
-            while (true)
+            if (response == "yes")
             {
-                Console.WriteLine("Enter first name: (leave empty to exit): ");
-                string firstName = Console.ReadLine();
-                // Break if the user hits ENTER without typing a name
-                if (firstName == "")
-                {
-                    break;
-                }
-
-                Console.Write("Enter last name: ");
-                string lastName = Console.ReadLine();
-                Console.Write("Enter the Id number: ");
-                int id = Int32.Parse(Console.ReadLine());
-                Console.Write("Enter the Url for Photo: ");
-                string photoUrl = Console.ReadLine();
-
-                Employee currentEmployee = new Employee(firstName, lastName, id, photoUrl);
-                employees.Add(currentEmployee);
+                List<Employee> employees = PeopleFetcher.GetFromApi();
+                Util.MakeCSV(employees);
+                Util.MakeBadges(employees);
             }
-            return employees;
-
+            else if (response == "no")
+            {
+                List<Employee> employees = PeopleFetcher.GetEmployees();
+                Util.MakeCSV(employees);
+                Util.MakeBadges(employees);
+            }
+            else 
+            {
+                Console.Write("Invalid Response");
+            }
         }
     }
 }
